@@ -29,5 +29,9 @@ public class MahasiswaDemo {
             System.out.println("IPK   : " + arrayOfMahasiswa[i].ipk); 
             System.out.println("------------------------------------");
         }
+        for (int i = 0; i < arrayOfMahasiswa.length; i++) {
+    System.out.println("Data Mahasiswa ke-" + (i+1));
+    arrayOfMahasiswa[i].printInfo();
+}
     }
 }

@@ -24,4 +24,13 @@ calls this default constructor to create a new Mahasiswa object.
 - Maintainability: Changes to Student structure don't affect the demo class logic  
 - Modularity: Each class has a single, well-defined responsibility  
 ## Experimental 2
-3.1
+3.1 done  
+3.2 This code causes a NullPointerException because:  
+- Mahasiswa[] myArrayOfMahasiswa; only declares a reference variable  
+- The array object itself hasn't been created (no new Mahasiswa[size])  
+- Trying to access myArrayOfMahasiswa[0] when the array reference is null throws an error  
+## Experimental 3
+4.1
+4.2
+4.3
+4.4
