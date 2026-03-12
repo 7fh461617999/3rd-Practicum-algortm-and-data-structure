@@ -30,7 +30,7 @@ calls this default constructor to create a new Mahasiswa object.
 - The array object itself hasn't been created (no new Mahasiswa[size])  
 - Trying to access myArrayOfMahasiswa[0] when the array reference is null throws an error  
 ## Experimental 3
-4.1
-4.2
-4.3
-4.4
+4.1 Yes, a class can have multiple constructors (constructor overloading).  
+4.2 done  
+4.3 done   
+4.4 done  

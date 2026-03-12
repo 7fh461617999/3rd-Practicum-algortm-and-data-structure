@@ -3,12 +3,26 @@ public class Matakuliah {
     public String nama;
     public int sks;
     public int jumlahJam;
-    
-    // Constructor dengan parameter
+  
     public Matakuliah(String kode, String nama, int sks, int jumlahJam) {
         this.kode = kode;
         this.nama = nama;
         this.sks = sks;
         this.jumlahJam = jumlahJam;
+    }
+ 
+    public void addData(String kode, String nama, int sks, int jumlahJam) {
+        this.kode = kode;
+        this.nama = nama;
+        this.sks = sks;
+        this.jumlahJam = jumlahJam;
+    }
+  
+    public void printInfo() {
+        System.out.println("Kode       : " + kode);
+        System.out.println("Nama       : " + nama);
+        System.out.println("SKS        : " + sks);
+        System.out.println("Jumlah Jam : " + jumlahJam);
+        System.out.println("------------------------");
     }
 }
